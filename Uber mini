@@ -1,0 +1,25 @@
+print("Welcome to Uber"
+print("Selecte your ride: ")
+print("1. Bike")
+print("2. Car")
+choice = int( input("Enter your choice: "))
+if(choice == 1):
+    print("what type of bike? ")
+    print("1.BMW\n")
+    print("2.Harley Davidson\n")
+    choice2=int(input("Enter your choice2: "))
+    if choice2==1:
+        print("you have to selected BMW")
+    else:
+        print("you have selected Harley Davidson")
+elif( choice ==2): 
+    print("what type of car?")
+    print("1.Lambo")
+    print("2. Mustang 1969")
+    choice3=int(input("enter your choice3: "))
+    if choice3==1:
+        print("you have selected Lambo")
+    else:
+        print("you have selected Mustang 1969")
+else:
+    print("wrong choice")
